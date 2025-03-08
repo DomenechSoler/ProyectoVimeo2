@@ -1,0 +1,571 @@
+// src/styles/custom.scss
+
+body {
+  width: 100%;
+  height: 7000px;
+  margin: auto;
+  font-family: ABCRepro-Medium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", serif;
+}
+p{
+  font-size: 20px;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+h1 {
+  font-size: 5.75rem;
+  font-weight: 500;
+}
+.container {
+  margin-top: 20px;
+}
+
+.custom-img1 {
+  max-width: 661px; /* Define el ancho máximo */
+  max-height: 661px; /* Define la altura máxima */
+  object-fit: cover; /* Asegura que la imagen mantenga proporciones adecuadas */
+}
+
+.hero-section {
+  background: url('fotoHorizontal.png') center center / cover no-repeat;
+  height: 40vh; /* Altura ajustable */
+  display: flex;
+  position: relative;
+}
+
+.hero-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Oscurece la imagen de fondo */
+  z-index: 1;
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 2; /* Asegura que el contenido esté encima del overlay */
+}
+
+.section-1 {
+  header {
+    width: 100%;
+    height: 90px;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    position: fixed;
+    font-weight: 600;
+    z-index: 1000;
+
+    nav {
+      width: 1600px;
+      height: auto;
+
+      .menu1 {
+        #menu3 {
+          width: 1300px;
+          height: 600px;
+          align-items: center;
+          display: flex;
+          text-align: center;
+          justify-content: center;
+
+          .row {
+            width: 1100px;
+            object-fit: contain;
+            height: auto;
+            margin: 20px;
+            text-align: center;
+            align-items: center;
+          }
+          col {
+            width: 500px;
+            height: auto;
+            margin: auto;
+
+          }
+          span {
+            font-size: 25px;
+            font-weight: 600;
+            text-align: center;
+            align-items: center;
+          }
+        }
+
+        li {
+          padding: 10px;
+          position: relative; // Añadir esta línea para el posicionamiento relativo
+        }
+        li a {
+          transition: background-color 0.3s ease-in-out,
+            opacity 0.3s ease-in-out; /* Transición suave para el color y la opacidad */
+          border-radius: 10px;
+        }
+        li a:hover {
+          background-color: lightblue; /* Color de fondo al pasar el ratón */
+          opacity: 1; /* Opacidad completa */
+          border-radius: 10px;
+        }
+
+        // Añadir estilos para mostrar el menú desplegable al hacer hover
+        li:hover .dropdown-menu {
+          display: block;
+        }
+
+        .dropdown-menu {
+          display: none; // Ocultar el menú desplegable por defecto
+          position: fixed; // Posicionamiento fijo para el menú desplegable
+          top: 100px; // Ajusta la posición vertical según sea necesario
+          left: 50%; // Centrar horizontalmente
+          transform: translateX(-50%); // Ajustar para centrar completamente
+          z-index: 1001; // Asegurar que el menú desplegable esté por encima de otros elementos
+        }
+      }
+
+      .menu2 {
+        li {
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
+
+.over {
+  position: relative;
+  overflow: hidden;
+  width: 200px;
+  height: 50px;
+  background-color: rgb(216, 214, 214); 
+  border: none;
+  transition: background-color 1s ease; 
+}
+
+.over:hover {
+  flex-wrap: wrap;
+}
+
+.azul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(57, 205, 250);
+  transform: translateX(100%);
+  transition: transform 1s ease;
+}
+
+.over:hover .azul {
+  transform: translateX(0);
+}
+
+.unirse {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white;
+  font-size: 16px;
+}
+
+
+.contFlecha {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 30px;
+  height: 50%;
+}
+
+.flecha {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: transform 1s ease;
+  white-space: nowrap; 
+}
+
+.flecha.izquierda {
+  transform: translateX(0);
+}
+
+.flecha.derecha {
+  transform: translateX(-100%);
+}
+
+.over:hover .flecha.izquierda {
+  transform: translateX(100%);
+}
+
+.over:hover .flecha.derecha {
+  transform: translateX(0);
+}
+
+
+/* boton grande */
+.overG{
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 50px;
+  background-color: rgb(216, 214, 214); 
+  border: none;
+  transition: background-color 1s ease; 
+}
+
+.overG:hover {
+  flex-wrap: wrap;
+}
+
+.azulG {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(57, 205, 250);
+  transform: translateX(100%);
+  transition: transform 1s ease;
+}
+
+.overG:hover .azulG {
+  transform: translateX(0);
+}
+
+.unirseG {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white;
+  font-size: 16px;
+}
+
+
+.contFlechaG {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 30px;
+  height: 50%;
+}
+
+.flechaG {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: transform 1s ease;
+  white-space: nowrap; 
+}
+
+.flecha.izquierdaG {
+  transform: translateX(0);
+}
+
+.flecha.derechaG {
+  transform: translateX(-100%);
+}
+
+.overG:hover .flecha.izquierdaG {
+  transform: translateX(100%);
+}
+
+.overG:hover .flecha.derechaG {
+  transform: translateX(0);
+}
+
+
+
+/* boton azul */
+
+.overA {
+  position: relative;
+  overflow: hidden;
+  width: 200px;
+  height: 50px;
+  background-color: rgb(57, 205, 250); 
+  border: none;
+  transition: background-color 1s ease; 
+}
+
+.overA:hover {
+  flex-wrap: wrap;
+}
+
+.azulA {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(7, 164, 212);
+  transform: translateX(100%);
+  transition: transform 1s ease;
+}
+
+.overA:hover .azulA {
+  transform: translateX(0);
+}
+
+.unirseA {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white;
+  font-size: 16px;
+}
+
+
+.contFlechaA {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 30px;
+  height: 50%;
+}
+
+.flechaA {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: transform 1s ease;
+  white-space: nowrap; 
+}
+
+.flecha.izquierdaA {
+  transform: translateX(0);
+}
+
+.flecha.derechaA {
+  transform: translateX(-100%);
+}
+
+.overA:hover .flecha.izquierdaA {
+  transform: translateX(100%);
+}
+
+.overA:hover .flecha.derechaA {
+  transform: translateX(0);
+}
+
+/* boton azul grande */
+
+
+.overAG {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 50px;
+  background-color: rgb(57, 205, 250); 
+  border: none;
+  transition: background-color 1s ease; 
+}
+
+.overAG:hover {
+  flex-wrap: wrap;
+}
+
+.azulAG {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(7, 164, 212);
+  transform: translateX(100%);
+  transition: transform 1s ease;
+}
+
+.overAG:hover .azulAG {
+  transform: translateX(0);
+}
+
+.unirseAG {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white;
+  font-size: 16px;
+}
+
+
+.contFlechaAG {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 30px;
+  height: 50%;
+}
+
+.flechaAG {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: transform 1s ease;
+  white-space: nowrap; 
+}
+
+.flecha.izquierdaAG {
+  transform: translateX(0);
+}
+
+.flecha.derechaAG {
+  transform: translateX(-100%);
+}
+
+.overAG:hover .flecha.izquierdaAG {
+  transform: translateX(100%);
+}
+
+.overAG:hover .flecha.derechaAG {
+  transform: translateX(0);
+}
+
+
+/* boton pequeño */
+
+.unique-over {
+  position: relative;
+  overflow: hidden;
+  width: 80px; /* Ajusta el ancho según sea necesario */
+  height: 50px;
+  background-color: rgb(57, 205, 250); 
+  border: none;
+  transition: background-color 1s ease; 
+}
+
+.unique-over:hover {
+  background-color: rgb(57, 205, 250); /* Mantener el color de fondo gris */
+}
+
+.unique-azul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(7, 164, 212);
+  transform: translateX(100%);
+  transition: transform 1s ease;
+}
+
+.unique-over:hover .unique-azul {
+  transform: translateX(0);
+}
+
+.unique-unirse {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white;
+  font-size: 16px;
+}
+
+.unique-contFlecha {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 30px; /* Ajusta el ancho según sea necesario */
+  height: 100%;
+}
+
+.unique-flecha {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: transform 1s ease;
+  white-space: nowrap; 
+}
+
+.unique-izquierda {
+  transform: translateX(0);
+}
+
+.unique-derecha {
+  transform: translateX(-100%);
+}
+
+.unique-over:hover .unique-izquierda {
+  transform: translateX(100%);
+}
+
+.unique-over:hover .unique-derecha {
+  transform: translateX(0);
+}
+
+
+/* transiciones */
+
+@keyframes fadeInUp {
+  0% {
+      opacity: 0;
+      transform: translateY(100px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.transicion-texto-h2 {
+  opacity: 0;
+  transform: translateY(100px);
+  animation: fadeInUp 1s ease forwards;
+}
+.transicion-texto-h1 {
+  opacity: 0;
+  transform: translateY(100px);
+  animation: fadeInUp 1s ease forwards;
+}
+
+.transicion-texto-delay {
+  opacity: 0;
+  transform: translateY(100px);
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 1s; /* Añade un retardo de 1s */
+}
+
+.animate {
+  animation: fadeInUp 1s ease forwards;
+}
+
+.transicion-texto-delay.animate {
+  animation-delay: 1s; /* Añade un retardo de 1s */
+}
+
+li.nav-item.dropdown .nav-link.dropdown-toggle::after {
+  font-family: "Font Awesome 5 Free"; /* Asegúrate de que Font Awesome esté cargado */
+  font-weight: 900;
+  margin-left: 0.5rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+li.nav-item.dropdown:hover .nav-link.dropdown-toggle::after {
+  transform: rotate(-180deg); /* Gira la flecha hacia arriba */
+}
