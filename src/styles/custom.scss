@@ -178,11 +178,11 @@ h1 {
   height: 50px;
   background-color: rgb(216, 214, 214); 
   border: none;
-  transition: background-color 1s ease; // Transición suave para el color de fondo
+  transition: background-color 1s ease; 
 }
 
 .over:hover {
-  flex-wrap: wrap; // Cambia el comportamiento de flex al hacer hover
+  flex-wrap: wrap;
 }
 
 .azul {
@@ -192,12 +192,12 @@ h1 {
   width: 100%;
   height: 100%;
   background-color: rgb(57, 205, 250);
-  transform: translateX(100%); // Mueve el elemento fuera de la vista
-  transition: transform 1s ease; // Transición suave para la transformación
+  transform: translateX(100%);
+  transition: transform 1s ease;
 }
 
 .over:hover .azul {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
+  transform: translateX(0);
 }
 
 .unirse {
@@ -210,6 +210,7 @@ h1 {
   color: white;
   font-size: 16px;
 }
+
 
 .contFlecha {
   position: relative;
@@ -224,39 +225,40 @@ h1 {
   position: absolute;
   top: 0;
   right: 0;
-  transition: transform 1s ease; // Transición suave para la transformación
+  transition: transform 1s ease;
   white-space: nowrap; 
 }
 
 .flecha.izquierda {
-  transform: translateX(0); // Posición inicial
+  transform: translateX(0);
 }
 
 .flecha.derecha {
-  transform: translateX(-100%); // Mueve el elemento fuera de la vista
+  transform: translateX(-100%);
 }
 
 .over:hover .flecha.izquierda {
-  transform: translateX(100%); // Mueve el elemento fuera de la vista al hacer hover
+  transform: translateX(100%);
 }
 
 .over:hover .flecha.derecha {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
+  transform: translateX(0);
 }
 
-/* Botón grande */
-.overG {
+
+/* boton grande */
+.overG{
   position: relative;
   overflow: hidden;
   width: 400px;
   height: 50px;
   background-color: rgb(35, 43, 58); 
   border: none;
-  transition: background-color 1s ease; // Transición suave para el color de fondo
+  transition: background-color 1s ease; 
 }
 
 .overG:hover {
-  flex-wrap: wrap; // Cambia el comportamiento de flex al hacer hover
+  flex-wrap: wrap;
 }
 
 .azulG {
@@ -266,12 +268,12 @@ h1 {
   width: 100%;
   height: 100%;
   background-color: rgb(0, 189, 247);
-  transform: translateX(100%); // Mueve el elemento fuera de la vista
-  transition: transform 1s ease; // Transición suave para la transformación
+  transform: translateX(100%);
+  transition: transform 1s ease;
 }
 
 .overG:hover .azulG {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
+  transform: translateX(0);
 }
 
 .unirseG {
@@ -284,6 +286,7 @@ h1 {
   color: white;
   font-size: 16px;
 }
+
 
 .contFlechaG {
   position: relative;
@@ -298,27 +301,30 @@ h1 {
   position: absolute;
   top: 0;
   right: 0;
-  transition: transform 1s ease; // Transición suave para la transformación
+  transition: transform 1s ease;
   white-space: nowrap; 
 }
 
 .flecha.izquierdaG {
-  transform: translateX(0); // Posición inicial
+  transform: translateX(0);
 }
 
 .flecha.derechaG {
-  transform: translateX(-100%); // Mueve el elemento fuera de la vista
+  transform: translateX(-100%);
 }
 
 .overG:hover .flecha.izquierdaG {
-  transform: translateX(100%); // Mueve el elemento fuera de la vista al hacer hover
+  transform: translateX(100%);
 }
 
 .overG:hover .flecha.derechaG {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
+  transform: translateX(0);
 }
 
-/* Botón azul */
+
+
+/* boton azul */
+
 .overA {
   position: relative;
   overflow: hidden;
@@ -326,11 +332,11 @@ h1 {
   height: 50px;
   background-color: rgb(57, 205, 250); 
   border: none;
-  transition: background-color 1s ease; // Transición suave para el color de fondo
+  transition: background-color 1s ease; 
 }
 
 .overA:hover {
-  flex-wrap: wrap; // Cambia el comportamiento de flex al hacer hover
+  flex-wrap: wrap;
 }
 
 .azulA {
@@ -340,12 +346,12 @@ h1 {
   width: 100%;
   height: 100%;
   background-color: rgb(7, 164, 212);
-  transform: translateX(100%); // Mueve el elemento fuera de la vista
-  transition: transform 1s ease; // Transición suave para la transformación
+  transform: translateX(100%);
+  transition: transform 1s ease;
 }
 
 .overA:hover .azulA {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
+  transform: translateX(0);
 }
 
 .unirseA {
@@ -358,6 +364,7 @@ h1 {
   color: white;
   font-size: 16px;
 }
+
 
 .contFlechaA {
   position: relative;
@@ -372,27 +379,29 @@ h1 {
   position: absolute;
   top: 0;
   right: 0;
-  transition: transform 1s ease; // Transición suave para la transformación
+  transition: transform 1s ease;
   white-space: nowrap; 
 }
 
 .flecha.izquierdaA {
-  transform: translateX(0); // Posición inicial
+  transform: translateX(0);
 }
 
 .flecha.derechaA {
-  transform: translateX(-100%); // Mueve el elemento fuera de la vista
+  transform: translateX(-100%);
 }
 
 .overA:hover .flecha.izquierdaA {
-  transform: translateX(100%); // Mueve el elemento fuera de la vista al hacer hover
+  transform: translateX(100%);
 }
 
 .overA:hover .flecha.derechaA {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
+  transform: translateX(0);
 }
 
-/* Botón azul grande */
+/* boton azul grande */
+
+
 .overAG {
   position: relative;
   overflow: hidden;
@@ -400,11 +409,11 @@ h1 {
   height: 50px;
   background-color: rgb(57, 205, 250); 
   border: none;
-  transition: background-color 1s ease; // Transición suave para el color de fondo
+  transition: background-color 1s ease; 
 }
 
 .overAG:hover {
-  flex-wrap: wrap; // Cambia el comportamiento de flex al hacer hover
+  flex-wrap: wrap;
 }
 
 .azulAG {
@@ -414,12 +423,12 @@ h1 {
   width: 100%;
   height: 100%;
   background-color: rgb(7, 164, 212);
-  transform: translateX(100%); // Mueve el elemento fuera de la vista
-  transition: transform 1s ease; // Transición suave para la transformación
+  transform: translateX(100%);
+  transition: transform 1s ease;
 }
 
 .overAG:hover .azulAG {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
+  transform: translateX(0);
 }
 
 .unirseAG {
@@ -432,6 +441,7 @@ h1 {
   color: white;
   font-size: 16px;
 }
+
 
 .contFlechaAG {
   position: relative;
@@ -446,27 +456,29 @@ h1 {
   position: absolute;
   top: 0;
   right: 0;
-  transition: transform 1s ease; // Transición suave para la transformación
+  transition: transform 1s ease;
   white-space: nowrap; 
 }
 
 .flecha.izquierdaAG {
-  transform: translateX(0); // Posición inicial
+  transform: translateX(0);
 }
 
 .flecha.derechaAG {
-  transform: translateX(-100%); // Mueve el elemento fuera de la vista
+  transform: translateX(-100%);
 }
 
 .overAG:hover .flecha.izquierdaAG {
-  transform: translateX(100%); // Mueve el elemento fuera de la vista al hacer hover
+  transform: translateX(100%);
 }
 
 .overAG:hover .flecha.derechaAG {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
+  transform: translateX(0);
 }
 
-/* Botón pequeño */
+
+/* boton pequeño */
+
 .unique-over {
   position: relative;
   overflow: hidden;
@@ -474,7 +486,7 @@ h1 {
   height: 50px;
   background-color: rgb(57, 205, 250); 
   border: none;
-  transition: background-color 1s ease; // Transición suave para el color de fondo
+  transition: background-color 1s ease; 
 }
 
 .unique-over:hover {
@@ -488,12 +500,12 @@ h1 {
   width: 100%;
   height: 100%;
   background-color: rgb(7, 164, 212);
-  transform: translateX(100%); // Mueve el elemento fuera de la vista
-  transition: transform 1s ease; // Transición suave para la transformación
+  transform: translateX(100%);
+  transition: transform 1s ease;
 }
 
 .unique-over:hover .unique-azul {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
+  transform: translateX(0);
 }
 
 .unique-unirse {
@@ -521,56 +533,58 @@ h1 {
   position: absolute;
   top: 0;
   right: 0;
-  transition: transform 1s ease; // Transición suave para la transformación
+  transition: transform 1s ease;
   white-space: nowrap; 
 }
 
 .unique-izquierda {
-  transform: translateX(0); // Posición inicial
+  transform: translateX(0);
 }
 
 .unique-derecha {
-  transform: translateX(-100%); // Mueve el elemento fuera de la vista
+  transform: translateX(-100%);
 }
 
 .unique-over:hover .unique-izquierda {
-  transform: translateX(100%); // Mueve el elemento fuera de la vista al hacer hover
+  transform: translateX(100%);
 }
 
 .unique-over:hover .unique-derecha {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
+  transform: translateX(0);
 }
+
 
 /* Animación del botón al hacer hover en la fila */
 .row:first-of-type:hover .unique-over .unique-azul {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
+  transform: translateX(0);
 }
 
 .row:first-of-type:hover .unique-over .unique-izquierda {
-  transform: translateX(100%); // Mueve el elemento fuera de la vista al hacer hover
+  transform: translateX(100%);
 }
 
 .row:first-of-type:hover .unique-over .unique-derecha {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
+  transform: translateX(0);
 }
 
 /* Animación del botón al hacer hover en la columna */
 .col-12:hover .unique-over .unique-azul,
 .col-md-6:hover .unique-over .unique-azul {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
+  transform: translateX(0);
 }
 
 .col-12:hover .unique-over .unique-izquierda,
 .col-md-6:hover .unique-over .unique-izquierda {
-  transform: translateX(100%); // Mueve el elemento fuera de la vista al hacer hover
+  transform: translateX(100%);
 }
 
 .col-12:hover .unique-over .unique-derecha,
 .col-md-6:hover .unique-over .unique-derecha {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
+  transform: translateX(0);
 }
 
-/* Transiciones */
+/* transiciones */
+
 @keyframes fadeInUp {
   0% {
       opacity: 0;
@@ -585,24 +599,23 @@ h1 {
 .transicion-texto-h2 {
   opacity: 0;
   transform: translateY(100px);
-  animation: fadeInUp 1s ease forwards; // Animación de entrada
+  animation: fadeInUp 1s ease forwards;
 }
-
 .transicion-texto-h1 {
   opacity: 0;
   transform: translateY(100px);
-  animation: fadeInUp 1s ease forwards; // Animación de entrada
+  animation: fadeInUp 1s ease forwards;
 }
 
 .transicion-texto-delay {
   opacity: 0;
   transform: translateY(100px);
-  animation: fadeInUp 1s ease forwards; // Animación de entrada
+  animation: fadeInUp 1s ease forwards;
   animation-delay: 1s; /* Añade un retardo de 1s */
 }
 
 .animate {
-  animation: fadeInUp 1s ease forwards; // Animación de entrada
+  animation: fadeInUp 1s ease forwards;
 }
 
 .transicion-texto-delay.animate {
@@ -613,14 +626,15 @@ li.nav-item.dropdown .nav-link.dropdown-toggle::after {
   font-family: "Font Awesome 5 Free"; /* Asegúrate de que Font Awesome esté cargado */
   font-weight: 900;
   margin-left: 0.5rem;
-  transition: transform 0.3s ease-in-out; // Transición suave para la transformación
+  transition: transform 0.3s ease-in-out;
 }
 
 li.nav-item.dropdown:hover .nav-link.dropdown-toggle::after {
   transform: rotate(-180deg); /* Gira la flecha hacia arriba */
 }
 
-/* Slider */
+//slider
+
 .image-container {
   overflow: hidden;
   width: 100%;
@@ -651,7 +665,7 @@ li.nav-item.dropdown:hover .nav-link.dropdown-toggle::after {
   display: flex;
   gap: 5px;
   width: max-content;
-  animation: marquee-container 30s linear infinite; // Animación de desplazamiento
+  animation: marquee-container 30s linear infinite;
 }
 
 @keyframes marquee-container {
@@ -670,7 +684,9 @@ li.nav-item.dropdown:hover .nav-link.dropdown-toggle::after {
   margin-bottom: 50px;
 }
 
-/* Casos de uso */
+// casos de uso 
+
+
 .casosDeUso {
   .centrado {
     margin-left: -5px;
@@ -695,74 +711,79 @@ li.nav-item.dropdown:hover .nav-link.dropdown-toggle::after {
 
 #morganCooper {
   width: 100%;
-  transition: width 0.35s ease-in-out; // Transición suave para el ancho
+  transition: width 0.35s ease-in-out;
 }
 
 #morganCooper:hover {
   width: 200%;
-  transition: all 0.35s ease-in-out; // Transición suave para todas las propiedades
+  transition: all 0.35s ease-in-out;
 }
 
 // Animacion primer caso de uso
 .col-md-4:has(#morganCooper:hover) ~ .col-md-4 #vermicular {
   width: 50%;
   margin-left: 100%;
-  transition: all 0.35s ease-in-out; // Transición suave para todas las propiedades
+  transition: all 0.35s ease-in-out;
 }
 .col-md-4:has(#morganCooper:hover) ~ .col-md-4 #stellantis {
   width: 50%;
   margin-left: 50%;
-  transition: all 0.35s ease-in-out; // Transición suave para todas las propiedades
+  transition: all 0.35s ease-in-out;
 }
 
 // Animacion segundo caso de uso
 .row:has(#vermicular:hover) .col-md-4 #morganCooper {
   width: 50%;
   margin-left: 0%;
-  transition: all 0.35s ease-in-out; // Transición suave para todas las propiedades
+  transition: all 0.35s ease-in-out;
 }
 
 .col-md-4:has(#vermicular:hover) ~ .col-md-4 #stellantis {
   width: 50%;
   margin-left: 50%;
-  transition: all 0.35s ease-in-out; // Transición suave para todas las propiedades
+  transition: all 0.35s ease-in-out;
 }
 
 // Animacion tercer caso de uso
 .row:has(#stellantis:hover) .col-md-4 #morganCooper {
   width: 50%;
   margin-left: 0%;
-  transition: all 0.35s ease-in-out; // Transición suave para todas las propiedades
+  transition: all 0.35s ease-in-out;
 }
 .row:has(#stellantis:hover) .col-md-4 #vermicular {
   width: 50%;
   margin-left: -50%;
-  transition: all 0.35s ease-in-out; // Transición suave para todas las propiedades
+  transition: all 0.35s ease-in-out;
 }
 
 #vermicular {
   width: 100%;
   margin-left: 0%;
-  transition: all 0.35s ease-in-out; // Transición suave para todas las propiedades
+  transition: all 0.35s ease-in-out;
 
   &:hover {
     width: 200%;
     margin-left: -50%;
-    transition: all 0.35s ease-in-out; // Transición suave para todas las propiedades
+    transition: all 0.35s ease-in-out;
   }
 }
 
 #stellantis {
   width: 100%;
   margin-left: 0%;
-  transition: all 0.35s ease-in-out; // Transición suave para todas las propiedades
+  transition: all 0.35s ease-in-out;
 
   &:hover {
     width: 200%;
     margin-left: -100%;
-    transition: all 0.35s ease-in-out; // Transición suave para todas las propiedades
+    transition: all 0.35s ease-in-out;
   }
 }
+
+
+
+
+
 
 #laptopcontainer {
   margin-top: 5rem;
@@ -788,626 +809,6 @@ li.nav-item.dropdown:hover .nav-link.dropdown-toggle::after {
     z-index: 3;
   }
 }
-
-
-.over {
-  position: relative;
-  overflow: hidden;
-  width: 200px;
-  height: 50px;
-  background-color: rgb(216, 214, 214); 
-  border: none;
-  transition: background-color 1s ease; // Transición suave para el color de fondo
-}
-
-.over:hover {
-  flex-wrap: wrap; // Cambia el comportamiento de flex al hacer hover
-}
-
-.azul {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(57, 205, 250);
-  transform: translateX(100%); // Mueve el elemento fuera de la vista
-  transition: transform 1s ease; // Transición suave para la transformación
-}
-
-.over:hover .azul {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
-}
-
-.unirse {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  color: white;
-  font-size: 16px;
-}
-
-.contFlecha {
-  position: relative;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-  width: 30px;
-  height: 50%;
-}
-
-.flecha {
-  position: absolute;
-  top: 0;
-  right: 0;
-  transition: transform 1s ease; // Transición suave para la transformación
-  white-space: nowrap; 
-}
-
-.flecha.izquierda {
-  transform: translateX(0); // Posición inicial
-}
-
-.flecha.derecha {
-  transform: translateX(-100%); // Mueve el elemento fuera de la vista
-}
-
-.over:hover .flecha.izquierda {
-  transform: translateX(100%); // Mueve el elemento fuera de la vista al hacer hover
-}
-
-.over:hover .flecha.derecha {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
-}
-
-/* Botón grande */
-.overG {
-  position: relative;
-  overflow: hidden;
-  width: 400px;
-  height: 50px;
-  background-color: rgb(35, 43, 58); 
-  border: none;
-  transition: background-color 1s ease; // Transición suave para el color de fondo
-}
-
-.overG:hover {
-  flex-wrap: wrap; // Cambia el comportamiento de flex al hacer hover
-}
-
-.azulG {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(0, 189, 247);
-  transform: translateX(100%); // Mueve el elemento fuera de la vista
-  transition: transform 1s ease; // Transición suave para la transformación
-}
-
-.overG:hover .azulG {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
-}
-
-.unirseG {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  color: white;
-  font-size: 16px;
-}
-
-.contFlechaG {
-  position: relative;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-  width: 30px;
-  height: 50%;
-}
-
-.flechaG {
-  position: absolute;
-  top: 0;
-  right: 0;
-  transition: transform 1s ease; // Transición suave para la transformación
-  white-space: nowrap; 
-}
-
-.flecha.izquierdaG {
-  transform: translateX(0); // Posición inicial
-}
-
-.flecha.derechaG {
-  transform: translateX(-100%); // Mueve el elemento fuera de la vista
-}
-
-.overG:hover .flecha.izquierdaG {
-  transform: translateX(100%); // Mueve el elemento fuera de la vista al hacer hover
-}
-
-.overG:hover .flecha.derechaG {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
-}
-
-/* Botón azul */
-.overA {
-  position: relative;
-  overflow: hidden;
-  width: 200px;
-  height: 50px;
-  background-color: rgb(57, 205, 250); 
-  border: none;
-  transition: background-color 1s ease; // Transición suave para el color de fondo
-}
-
-.overA:hover {
-  flex-wrap: wrap; // Cambia el comportamiento de flex al hacer hover
-}
-
-.azulA {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(7, 164, 212);
-  transform: translateX(100%); // Mueve el elemento fuera de la vista
-  transition: transform 1s ease; // Transición suave para la transformación
-}
-
-.overA:hover .azulA {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
-}
-
-.unirseA {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  color: white;
-  font-size: 16px;
-}
-
-.contFlechaA {
-  position: relative;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-  width: 30px;
-  height: 50%;
-}
-
-.flechaA {
-  position: absolute;
-  top: 0;
-  right: 0;
-  transition: transform 1s ease; // Transición suave para la transformación
-  white-space: nowrap; 
-}
-
-.flecha.izquierdaA {
-  transform: translateX(0); // Posición inicial
-}
-
-.flecha.derechaA {
-  transform: translateX(-100%); // Mueve el elemento fuera de la vista
-}
-
-.overA:hover .flecha.izquierdaA {
-  transform: translateX(100%); // Mueve el elemento fuera de la vista al hacer hover
-}
-
-.overA:hover .flecha.derechaA {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
-}
-
-/* Botón azul grande */
-.overAG {
-  position: relative;
-  overflow: hidden;
-  width: 300px;
-  height: 50px;
-  background-color: rgb(57, 205, 250); 
-  border: none;
-  transition: background-color 1s ease; // Transición suave para el color de fondo
-}
-
-.overAG:hover {
-  flex-wrap: wrap; // Cambia el comportamiento de flex al hacer hover
-}
-
-.azulAG {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(7, 164, 212);
-  transform: translateX(100%); // Mueve el elemento fuera de la vista
-  transition: transform 1s ease; // Transición suave para la transformación
-}
-
-.overAG:hover .azulAG {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
-}
-
-.unirseAG {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  color: white;
-  font-size: 16px;
-}
-
-.contFlechaAG {
-  position: relative;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-  width: 30px;
-  height: 50%;
-}
-
-.flechaAG {
-  position: absolute;
-  top: 0;
-  right: 0;
-  transition: transform 1s ease; // Transición suave para la transformación
-  white-space: nowrap; 
-}
-
-.flecha.izquierdaAG {
-  transform: translateX(0); // Posición inicial
-}
-
-.flecha.derechaAG {
-  transform: translateX(-100%); // Mueve el elemento fuera de la vista
-}
-
-.overAG:hover .flecha.izquierdaAG {
-  transform: translateX(100%); // Mueve el elemento fuera de la vista al hacer hover
-}
-
-.overAG:hover .flecha.derechaAG {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
-}
-
-/* Botón pequeño */
-.unique-over {
-  position: relative;
-  overflow: hidden;
-  width: 80px; /* Ajusta el ancho según sea necesario */
-  height: 50px;
-  background-color: rgb(57, 205, 250); 
-  border: none;
-  transition: background-color 1s ease; // Transición suave para el color de fondo
-}
-
-.unique-over:hover {
-  background-color: rgb(57, 205, 250); /* Mantener el color de fondo gris */
-}
-
-.unique-azul {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(7, 164, 212);
-  transform: translateX(100%); // Mueve el elemento fuera de la vista
-  transition: transform 1s ease; // Transición suave para la transformación
-}
-
-.unique-over:hover .unique-azul {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
-}
-
-.unique-unirse {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  color: white;
-  font-size: 16px;
-}
-
-.unique-contFlecha {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  width: 30px; /* Ajusta el ancho según sea necesario */
-  height: 100%;
-}
-
-.unique-flecha {
-  position: absolute;
-  top: 0;
-  right: 0;
-  transition: transform 1s ease; // Transición suave para la transformación
-  white-space: nowrap; 
-}
-
-.unique-izquierda {
-  transform: translateX(0); // Posición inicial
-}
-
-.unique-derecha {
-  transform: translateX(-100%); // Mueve el elemento fuera de la vista
-}
-
-.unique-over:hover .unique-izquierda {
-  transform: translateX(100%); // Mueve el elemento fuera de la vista al hacer hover
-}
-
-.unique-over:hover .unique-derecha {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
-}
-
-/* Animación del botón al hacer hover en la fila */
-.row:first-of-type:hover .unique-over .unique-azul {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
-}
-
-.row:first-of-type:hover .unique-over .unique-izquierda {
-  transform: translateX(100%); // Mueve el elemento fuera de la vista al hacer hover
-}
-
-.row:first-of-type:hover .unique-over .unique-derecha {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
-}
-
-/* Animación del botón al hacer hover en la columna */
-.col-12:hover .unique-over .unique-azul,
-.col-md-6:hover .unique-over .unique-azul {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
-}
-
-.col-12:hover .unique-over .unique-izquierda,
-.col-md-6:hover .unique-over .unique-izquierda {
-  transform: translateX(100%); // Mueve el elemento fuera de la vista al hacer hover
-}
-
-.col-12:hover .unique-over .unique-derecha,
-.col-md-6:hover .unique-over .unique-derecha {
-  transform: translateX(0); // Mueve el elemento a su posición original al hacer hover
-}
-
-/* Transiciones */
-@keyframes fadeInUp {
-  0% {
-      opacity: 0;
-      transform: translateY(100px);
-  }
-  100% {
-      opacity: 1;
-      transform: translateY(0);
-  }
-}
-
-.transicion-texto-h2 {
-  opacity: 0;
-  transform: translateY(100px);
-  animation: fadeInUp 1s ease forwards; // Animación de entrada
-}
-
-.transicion-texto-h1 {
-  opacity: 0;
-  transform: translateY(100px);
-  animation: fadeInUp 1s ease forwards; // Animación de entrada
-}
-
-.transicion-texto-delay {
-  opacity: 0;
-  transform: translateY(100px);
-  animation: fadeInUp 1s ease forwards; // Animación de entrada
-  animation-delay: 1s; /* Añade un retardo de 1s */
-}
-
-.animate {
-  animation: fadeInUp 1s ease forwards; // Animación de entrada
-}
-
-.transicion-texto-delay.animate {
-  animation-delay: 1s; /* Añade un retardo de 1s */
-}
-
-li.nav-item.dropdown .nav-link.dropdown-toggle::after {
-  font-family: "Font Awesome 5 Free"; /* Asegúrate de que Font Awesome esté cargado */
-  font-weight: 900;
-  margin-left: 0.5rem;
-  transition: transform 0.3s ease-in-out; // Transición suave para la transformación
-}
-
-li.nav-item.dropdown:hover .nav-link.dropdown-toggle::after {
-  transform: rotate(-180deg); /* Gira la flecha hacia arriba */
-}
-
-/* Slider */
-.image-container {
-  overflow: hidden;
-  width: 100%;
-  position: relative;
-}
-
-.image-container::before,
-.image-container::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  width: 100px;
-  height: 100%;
-  z-index: 1;
-}
-
-.image-container::before {
-  left: 0;
-  background: linear-gradient(to right, #f1f5f9, transparent);
-}
-
-.image-container::after {
-  right: 0;
-  background: linear-gradient(to left, #f1f5f9, transparent);
-}
-
-.image-wrapper {
-  display: flex;
-  gap: 5px;
-  width: max-content;
-  animation: marquee-container 30s linear infinite; // Animación de desplazamiento
-}
-
-@keyframes marquee-container {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
-}
-
-.small-img {
-  height: 80px;
-  object-fit: contain;
-  padding-right: 105px;
-  margin-bottom: 50px;
-}
-
-/* Casos de uso */
-.casosDeUso {
-  .centrado {
-    margin-left: -5px;
-    margin-top: 10px;
-    p {
-      font-size: 15px;
-      width: 99%;
-    }
-    h2 {
-      margin-top: 10px;
-    }
-  }
-
-  img {
-    width: 100%;
-    height: 450px;
-    margin-left: -8px;
-    border-radius: 25px;
-    object-fit: cover;
-  }
-}
-
-#morganCooper {
-  width: 100%;
-  transition: width 0.35s ease-in-out; // Transición suave para el ancho
-}
-
-#morganCooper:hover {
-  width: 200%;
-  transition: all 0.35s ease-in-out; // Transición suave para todas las propiedades
-}
-
-// Animacion primer caso de uso
-.col-md-4:has(#morganCooper:hover) ~ .col-md-4 #vermicular {
-  width: 50%;
-  margin-left: 100%;
-  transition: all 0.35s ease-in-out; // Transición suave para todas las propiedades
-}
-.col-md-4:has(#morganCooper:hover) ~ .col-md-4 #stellantis {
-  width: 50%;
-  margin-left: 50%;
-  transition: all 0.35s ease-in-out; // Transición suave para todas las propiedades
-}
-
-// Animacion segundo caso de uso
-.row:has(#vermicular:hover) .col-md-4 #morganCooper {
-  width: 50%;
-  margin-left: 0%;
-  transition: all 0.35s ease-in-out; // Transición suave para todas las propiedades
-}
-
-.col-md-4:has(#vermicular:hover) ~ .col-md-4 #stellantis {
-  width: 50%;
-  margin-left: 50%;
-  transition: all 0.35s ease-in-out; // Transición suave para todas las propiedades
-}
-
-// Animacion tercer caso de uso
-.row:has(#stellantis:hover) .col-md-4 #morganCooper {
-  width: 50%;
-  margin-left: 0%;
-  transition: all 0.35s ease-in-out; // Transición suave para todas las propiedades
-}
-.row:has(#stellantis:hover) .col-md-4 #vermicular {
-  width: 50%;
-  margin-left: -50%;
-  transition: all 0.35s ease-in-out; // Transición suave para todas las propiedades
-}
-
-#vermicular {
-  width: 100%;
-  margin-left: 0%;
-  transition: all 0.35s ease-in-out; // Transición suave para todas las propiedades
-
-  &:hover {
-    width: 200%;
-    margin-left: -50%;
-    transition: all 0.35s ease-in-out; // Transición suave para todas las propiedades
-  }
-}
-
-#stellantis {
-  width: 100%;
-  margin-left: 0%;
-  transition: all 0.35s ease-in-out; // Transición suave para todas las propiedades
-
-  &:hover {
-    width: 200%;
-    margin-left: -100%;
-    transition: all 0.35s ease-in-out; // Transición suave para todas las propiedades
-  }
-}
-
-#laptopcontainer {
-  margin-top: 5rem;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 15rem; /* Añadir margen inferior */
-
-  #laptopImg {
-    height: 650px;
-    width: 1290px;
-    max-width: auto;
-    position: absolute;
-  }
-
-  #laptop {
-    margin-top: 65px;
-    margin-left: auto;
-    height: 350px;
-    width: 100%;
-    margin-bottom: 100px;
-    position: relative;
-    z-index: 3;
-  }
-}
-
 footer {
   background-color: rgba(0, 0, 0, 0.945);
 }
